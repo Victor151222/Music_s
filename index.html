@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Music</title>
+        <link rel="stylesheet" href="css/audio.css">
+    </head>
+    <body>
+    <div>
+        <div class="memory">
+            <div class="memory_head">
+                <div class="memory_img ">
+                    <img src="images/singer.png" alt="我的记忆" />
+                    <div class="bor_circle"></div>
+                    <div class="in_circle"></div>
+                </div>
+            </div>
+            <div class="control">
+                <span id="startbt" class="start">Start</span>
+                <span id="" class="none">Stop</span>
+                <span id="pausebt" class="none">Pause</span>
+                <div class="volume">
+                    <input type="range" value="100" id="range">
+                    <span class="vol_vount">100</span>
+                </div>
+                <!-- 栅栏式 -->
+                <div class="fence">
+                    <div><div class="fence_all fence1 paused"></div></div>
+                    <div><div class="fence_all fence2 paused"></div></div>
+                    <div><div class="fence_all fence3 paused"></div></div>
+                    <div><div class="fence_all fence4 paused"></div></div>
+                    <div><div class="fence_all fence5 paused"></div></div>
+                    <div><div class="fence_all fence6 paused"></div></div>
+                </div>
+                <div class="volume none">
+                    <span class="vol_cut">-</span>
+                    <div class="vol_show">
+                        <span class="vol_1"></span>
+                        <span class="vol_2"></span>
+                        <span class="vol_3"></span>
+                    </div>
+                    <span class="vol_add">+</span>
+                </div>
+            </div>
+            <div>
+                <audio id="my_dream" class="none" preload="auto">
+                    <source src="music/first_dream.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div class="words">
+                <div>
+                    <div class="pro_bar">
+                        <span class="bar_end"></span>
+                        <span class="bar_font"></span>
+                    </div>
+                    <span id="remain_time">04m54s</span>
+                </div>
+                <marquee class="roll" onmouseover="this.stop()" onmouseout="this.start()" scrollamount="1" direction="up" behavior="scroll" loop="1" scrolldelay="120">
+                    <div class="memory_box">
+                        <ul>
+                            <li>《最初的梦想》</li>
+                            <li>范玮琪</li>
+                            <li>如果骄傲没被现实大海冷冷拍下</li>
+                            <li>又怎会懂得要多努力</li>
+                            <li>才走得到远方</li>
+                            <li>如果梦想不曾坠落悬崖</li>
+                            <li>千钧一发</li>
+                            <li>又怎会晓得执着的人</li>
+                            <li>拥有隐形翅牓</li>
+                            <li>把眼泪装在心上</li>
+                            <li>会开出勇敢的花</li>
+                            <li>可以在疲惫的时光</li>
+                            <li>闭上眼睛闻到一种芬芳</li>
+                            <li>就像好好睡了一夜直到天亮</li>
+                            <li>又能边走着边哼着歌</li>
+                            <li>用轻快的步伐</li>
+                            <li>沮丧时总会明显感到孤独的重量</li>
+                            <li>多渴望懂得的人给些温暖借个肩膀</li>
+                            <li>很高兴一路上我们的默契那么长</li>
+                            <li>穿过风又绕个弯心还连着</li>
+                            <li>像往常一样</li>
+                            <li>最初的梦想紧握在手上</li>
+                            <li>最想要去的地方</li>
+                            <li>怎么能在半路就放</li>
+                            <li>最初的梦想绝对会到达</li>
+                            <li>实现了真的渴望</li>
+                            <li>才能够算到过了天堂</li>
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                            <li>如果骄傲没被现实大海冷冷拍下</li>
+                            <li>又怎会懂得要多努力</li>
+                            <li>才走得到远方</li>
+                            <li>如果梦想不曾坠落悬崖</li>
+                            <li>千钧一发</li>
+                            <li>又怎会晓得执着的人</li>
+                            <li>拥有隐形翅牓</li>
+                            <li>把眼泪装在心上</li>
+                            <li>会开出勇敢的花</li>
+                            <li>可以在疲惫的时光</li>
+                            <li>闭上眼睛闻到一种芬芳</li>
+                            <li>就像好好睡了一夜直到天亮</li>
+                            <li>又能边走着边哼着歌</li>
+                            <li>用轻快的步伐</li>
+                            <li>沮丧时总会明显感到孤独的重量</li>
+                            <li>多渴望懂得的人给些温暖借个肩膀</li>
+                            <li>很高兴一路上我们的默契那么长</li>
+                            <li>穿过风又绕个弯心还连着</li>
+                            <li>像往常一样</li>
+                            <li>最初的梦想紧握在手上</li>
+                            <li>最想要去的地方</li>
+                            <li>怎么能在半路就放</li>
+                            <li>最初的梦想绝对会到达</li>
+                            <li>实现了真的渴望</li>
+                            <li>才能够算到过了天堂</li>
+                            <li>最初的梦想绝对会到达</li>
+                            <li>实现了真的渴望</li>
+                            <li>才能够算到过了天堂</li>
+                            <br/>
+                            <li>感谢有你！</li>
+                            <li>谢谢欣赏！</li>
+                        </ul>
+                    </div>
+                </marquee>
+                <div class="word_layer"></div>
+            </div>
+        </div>
+        <div class="loading none">
+            <span class="load_1">资</span>
+            <span class="load_2">源</span>
+            <span class="load_3">加</span>
+            <span class="load_4">载</span>
+            <span class="load_5">中</span>
+            <span class="load_6">...</span>
+        </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/audio.js"></script>
+    </body>
+</html>
